@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.gallery{
+    text-align: center;padding: 0px 40px;
+    
+}
+body{
+    background-image: url(./Group\ 2930.png);
+    background-color:#030A1C ;
+}
+.images{
+  background-color: #030A1C ;
+  padding:  0;
+  border-radius: 15px;
+}
+img{
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    box-shadow:#DB00FF  0px 8px 24px;
+}
+.titre{
+    padding: 50px 50px;
+    text-align: center;
+    
+}
+.pic{
+    width: 400px;
+    height: 350px;
+    margin: 10px;
+}
+.pic {
+    background: linear-gradient(to bottom, #bdc3c7, #2c3e50);
+    /* Replace the above color values with your desired gradient colors */
+    transition: background 0.5s ease;
+  }
+  
+  .pic:hover {
+    background: linear-gradient(to bottom, #2c3e50, #bdc3c7);
+    /* Replace the above color values with your desired gradient colors */
+  }
+  .titre
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #ffffff 0%,
+    #ffffff 29%,
+    #DB00FF 67%,
+    #00ffc8 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  
+      font-size: 100px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+ img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+    }
+    
+     img:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
